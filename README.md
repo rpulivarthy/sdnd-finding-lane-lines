@@ -15,31 +15,31 @@ Creating a Great Writeup
 For this project, a great writeup should provide a detailed response to the "Reflection" section of the [project rubric](https://review.udacity.com/#!/rubrics/322/view). There are three parts to the reflection:
 
 Describe the pipeline
-    1. Select White and Yellow lines
-        The test images that are provided contain both white and yellow. 
-        White Lanes
-        ![alt-text] (./test_images/solidWhiteCurve.jpg)
-        Yellow Lanes
-        ![alt-text] (./test_images/solidYellowCurve.jpg)
-    2. Apply Gray Scale
-        This is needed for canny to properly detect edges
-    3. Apply Gaussian Smooting
-        Apply Gaussian Smoothing for the edges
-    4. Apply Canny
-        Detect the edges
-    5. Apply Hough transform after canny. 
+    1. Select White and Yellow lines </br>
+        The test images that are provided contain both white and yellow. </br>
+        White Lanes </br>
+        ![alt-text](./test_images/solidWhiteCurve.jpg)</br>
+        Yellow Lanes</br>
+        ![alt-text](./test_images/solidYellowCurve.jpg)</br>
+    2. Apply Gray Scale </br>
+        This is needed for canny to properly detect edges </br>
+    3. Apply Gaussian Smooting </br>
+        Apply Gaussian Smoothing for the edges</br>
+    4. Apply Canny </br>
+        Detect the edges </br>
+    5. Apply Hough transform after canny. </br>
         All the edges will result in lines in parameter space. The point of intersect in the hough transform is the line in 
         image space with slope and constant
-    6. Draw the lane lines
+    6. Draw the lane lines </br>
         The lines from the hough are fed to this function. 
         Average slope intercept is derived from multiple lines.
         Lanes and drawn on the original image
-         White Lanes
-        ![alt-text] (./test_images_output/solidWhiteCurve.jpg)
-        Yellow Lanes
-        ![alt-text] (./test_images_output/solidYellowCurve.jpg)
+         White Lanes</br>
+        ![alt-text](./test_images_output/solidWhiteCurve.jpg)</br>
+        Yellow Lanes</br>
+        ![alt-text](./test_images_output/solidYellowCurve.jpg)</br>
 
-Link to Videos
+Link to Videos </br>
 [White Lanes](https://youtu.be/Xv-tLLH5GOw)
 
 [Yellow Lanes](https://youtu.be/xZGnnONLlWY)
