@@ -14,6 +14,15 @@ Creating a Great Writeup
 ---
 For this project, a great writeup should provide a detailed response to the "Reflection" section of the [project rubric](https://review.udacity.com/#!/rubrics/322/view). There are three parts to the reflection:
 
+Files Included
+
+1. P1.ipynb </br>
+2. test_images_output/* </br>
+    Processed Test images </br>
+3. test_videos_output/* </br>
+    Processed videos 
+</br>
+
 Describe the pipeline
     1. Select White and Yellow lines </br>
         The test images that are provided contain both white and yellow. </br>
@@ -46,8 +55,10 @@ Link to Videos </br>
 
 2. Identify any shortcomings
     1. Curvature of the road is not considered.
-
-3. Suggest possible improvements
+</br>
+3. Reflection:
+    The current pipeline works in detecting the images with standard slopes more like straight lines. 
+    The current pipeline will fail on the turning roads.  
     
 
 
