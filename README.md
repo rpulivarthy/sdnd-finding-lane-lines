@@ -58,7 +58,10 @@ Link to Videos </br>
 </br>
 3. Reflection:
     The current pipeline works in detecting the images with standard slopes more like straight lines. 
-    The current pipeline will fail on the turning roads.  
+    The current pipeline will fail on the turning roads. 
+    Applying the region of interest helped in correctly predicting the lanes. 
+    Using HSL will help in identifying the lanes under different conditions.
+
     
 
 
