@@ -53,14 +53,20 @@ Link to Videos </br>
 
 [Yellow Lanes](https://youtu.be/xZGnnONLlWY)
 
-2. Identify any shortcomings
-    1. Curvature of the road is not considered.
+2. Identify any shortcomings and suggestions.
+    1. Curvature of the road is not considered.</br>
+    2. The pipeline will not work properly when the images has shades. Working with HSL as opposed to RGB will help</br>
+    3. Too much tweaking required to get the hough parameters right.</br>
+    4. Each image is processed as a new. No previous information is used for the decision.</br>
+    5. Using the polynomial will help in detecting the curved roads.</br>
+    6. Too much tweaking required to get the hough parameters right.
 </br>
 3. Reflection:
     The current pipeline works in detecting the images with standard slopes more like straight lines. 
     The current pipeline will fail on the turning roads. 
     Applying the region of interest helped in correctly predicting the lanes. 
     Using HSL will help in identifying the lanes under different conditions.
+
 
     
 
